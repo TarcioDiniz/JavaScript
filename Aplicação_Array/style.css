@@ -1,0 +1,96 @@
+body{
+    font-size: 15px;
+    background-color: rgb(22, 22, 22);
+    text-transform: capitalize;
+}
+
+
+
+._display_input{
+
+    float: left;
+    width: 49%;
+    height: 700px;
+    background-color: white;
+}
+
+._display_output{
+    float: right;
+    width: 49%;
+    height: 700px;
+    background-color: white;
+}
+
+h1{
+    color: rgb(29, 121, 226);
+    text-align: center;
+    text-decoration: underline;
+}
+
+fieldset{
+    margin: auto;
+    width: 70%;
+    border: none;
+}
+
+
+input{
+    width: 70%;
+    border: none;
+    outline: none;
+    float: right;
+    text-align: right;
+}
+
+label{
+    color: rgb(29, 121, 226);
+}
+
+hr{
+    border: none;
+    background-color: rgb(29, 121, 226);
+    height: 2px;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 14px;
+    font-weight:bold;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    margin-left: 35%;
+    background-color: rgb(253, 74, 43);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+
+button:hover{
+    font-size: 20px;
+    width: 35%;
+    padding: 20px;
+    margin-left: 33%;
+    background-color: rgb(253, 74, 43);
+}
+
+
+table{
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    width: 70%;
+}
+
+#top_table{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+tr{
+    background-color: white;
+    color: black;
+}
